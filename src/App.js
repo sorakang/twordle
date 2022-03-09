@@ -21,7 +21,7 @@ const App = () => {
         "correctCharArray":[],
         "status":"IN_PROGRESS"};
       setBoardData(newBoardData);
-      localStorage.setIten('board-data', JSON.stringify(newBoardData));
+      localStorage.setItem('board-data', JSON.stringify(newBoardData));
     }
 
   useEffect(() => {
